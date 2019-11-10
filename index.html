@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Deryan</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="LDS PWA">
+    <meta name="apple-mobile-web-app-title" content="LDS PWA">
+    <meta name="theme-color" content="#ee6e73">
+    <meta name="msapplication-navbutton-color" content="#ee6e73">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/png" href="img/laptop.png" />
+    <title>Learn Do Share</title>
   </head>
   <body>
-    <h1>Hi</h1>
-    jkkjhkbjbiuvugjfu
+    <div class="container">
+      <div class="nav">
+        <ul>
+  				<li><a href="location.html">Location</a></li>
+  				<li><a href="add2numbers.html">Calculate</a></li>
+  				<li><a href="#">Home</a></li>
+  			</ul>
+      </div>
+      <div class="header">
+        <h1>Learn. Do. Share.</h1>
+      </div>
+      <div class="konten">
+        <div class="satu">
+          <img src="img/calculation.png" alt="Calculation" class="responsive">
+        </div>
+        <div class="satu-a">
+          <div class="text">
+            <h4 style="font-size:3vw;">Let's try your calculation here</h4>
+            <p style="font-size:2vw;">learn basic mathematical calculations starting from addition, subtraction, multiplication and division</p>
+            <br>
+            <a href="add2numbers.html" class="button2">Calculate</a>
+          </div>
+        </div>
+        <div class="dua">
+          <div class="text">
+            <h4 style="font-size:3vw;">Let's find some location near you</h4>
+            <p style="font-size:2vw;">find a convenient location around you for a place to study</p>
+            <br>
+            <a href="location.html" class="button2">Location</a>
+          </div>
+        </div>
+        <div class="dua-a">
+          <img src="img/location.jpg" alt="Location" class="responsive1">
+        </div>
+      </div>
+      <div class="footer">
+        <p> Copyright &copy; Deryan Everestha </p>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="index.js"></script>
   </body>
 </html>
